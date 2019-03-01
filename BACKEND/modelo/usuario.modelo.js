@@ -11,6 +11,6 @@ var usuario=new esquema({
 
 })
 //PATH es la propiedad que debe ser unica
-usuario.plugin(uniqueValidator,{message:'El {PATH} debe ser unico'} )
+usuario.plugin(uniqueValidator,{message:'El {PATH} debe ser unicoo'} )
 
 module.exports=mongoose.model('Usuario',usuario)
